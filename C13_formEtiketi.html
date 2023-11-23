@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Form Kullanimi -->
+    <!--
+        <input type="text">
+        <input type="password">
+        <input type="email">
+        <input type="checkbox">
+        <input type="radio">
+        <input type="file">
+        <input type="reset">
+        <input type="sumbit">
+        <textarea name="" id="" cols="" rows="">
+        <select>
+            <option> </option>
+        </select>
+
+        placeholder = textboxlarin içine yazılan yarı saydam silinemeyen yazıları yazıyoruz
+    -->
+
+    <form >
+        <input type="text" placeholder="Adiniz"/>
+        <br/>
+        <input type="password" placeholder="şifreniz"/>
+        <br/>
+        <input type="email" placeholder="email adresiniz"/>
+        <br/>
+        kitap okumak : <input type="checkbox"/>
+        <br/>
+        spor yapmak : <input type="checkbox"/>
+        <br/>
+        enstrüman çalmak : <input type="checkbox"/>
+        <br/>
+        <br/>
+        kadin<input type="radio" name="radioCinsiyet"/> <!-- biri seçiliyken digerini seçememiz için name attirubute'nun aynı olması gerekiyor -->
+        <br/>
+        erkek <input type="radio" name="radioCinsiyet"/>
+        <br/>
+        <input type="file"/>
+        <br/>
+        <br/>
+        <input type="submit" value="Gönder"/> <!-- value="" degeri ile butonumuza isim veriyoruz -->
+        <br/>
+        <br/>
+        <input type="reset" value="Temizle"> <!-- formun içine gidigimiz verileri temizleyen bir buton oluşturur -->
+        <br/>
+        <br/>
+        <textarea name="mesaj" id="mesajAlani" cols="30" rows="10"></textarea>
+        <br/>
+        <br/>
+        İÇECEKLER 
+        <br/>
+        <select>
+            <option value="çay">Çay</option>
+            <option value="kayhve">Kahve</option>
+            <option value="limonata">Limonata</option>
+        </select>
+    </form>
+
+</body>
+</html>
